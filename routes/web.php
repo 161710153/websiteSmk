@@ -24,3 +24,7 @@ Route::resource('industris','IndustriController');
 Route::resource('prestasis','PrestasiController');
 Route::resource('program_studis','ProgramstudiController');
 Route::resource('strukturs','StrukturController');
+
+Route::get('cek', function () {
+    return view('layouts.admin');
+});
